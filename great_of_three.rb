@@ -1,12 +1,10 @@
-first_number = 20
+first_number = 90
 second_number = 70
-third_number = 50
-temp = 0
+third_number = 80
 if (first_number > second_number) && (first_number > third_number)
-    temp = first_number
+    puts first_number
 elsif (second_number > first_number) && (second_number > third_number)
-    temp = second_number
+    puts second_number
 else
-    temp = third_number
+    puts third_number
 end
-puts temp
