@@ -1,3 +1,1 @@
-(1..10).each{ |n|
-    puts n if n.even?
-}
+puts (1..10).select(&:even?)
