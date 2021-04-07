@@ -1,5 +1,5 @@
 (1..10).each{ |n|
-    if n % 2 == 0
+    if n.odd? == false
         puts n
     end
 }
